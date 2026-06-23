@@ -20,24 +20,27 @@ color:white;
 }
 
 header{
-height:100vh;
+min-height:100vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
+background:#000;
+padding:20px;
+}
 
-background:
-linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.85)),
-url('file_000000008630720999834a5ee31ac117.png');
-
-background-size: contain;
-background-position: center center;
-background-repeat: no-repeat;
+.banner{
+width:95%;
+max-width:900px;
+height:auto;
+margin-bottom:20px;
+border-radius:15px;
+box-shadow:0 0 30px rgba(255,0,0,0.4);
 }
 
 h1{
-font-size:35px;
+font-size:40px;
 color:#ff0000;
 text-shadow:
 0 0 10px #ff0000,
@@ -48,7 +51,7 @@ letter-spacing:3px;
 
 .tagline{
 margin-top:10px;
-font-size:20px;
+font-size:22px;
 color:#ddd;
 }
 
@@ -131,9 +134,17 @@ background:#080808;
 <body>
 
 <header>
+
+<img src="file_000000008630720999834a5ee31ac117.png" class="banner">
+
 <h1>DEVILBLAST</h1>
-<p class="tagline">Monthly Notes • Knowledge • Growth • Success</p>
+
+<p class="tagline">
+Monthly Notes • Knowledge • Growth • Success
+</p>
+
 <a href="#about" class="btn">Explore</a>
+
 </header>
 
 <section id="about">
@@ -231,7 +242,10 @@ I'm a hardworking and honest student who strives to help society while continuou
 <p>📧 dhilipbhati12@gmail.com</p>
 <p>📱 9256974489</p>
 <p>💼 LinkedIn: Dhilip Bhati</p>
-  <a href="Untitled design_20260617_120908_0000.pdf" class="download">📄 Download Resume</a>
+
+<a href="Untitled design_20260617_120908_0000.pdf" class="download">
+📄 Download Resume
+</a>
 
 </div>
 
@@ -246,3 +260,5 @@ I'm a hardworking and honest student who strives to help society while continuou
 
 </body>
 </html>
+
+
